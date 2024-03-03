@@ -1,0 +1,27 @@
+[gd_scene load_steps=2 format=3 uid="uid://cxqsrog8cc2dh"]
+
+[ext_resource type="Script" path="res://ExitButton.gd" id="1_3ndyp"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Button" type="Button" parent="."]
+offset_left = 303.0
+offset_top = 159.0
+offset_right = 811.0
+offset_bottom = 221.0
+text = "Play"
+
+[node name="Button2" type="Button" parent="."]
+offset_left = 377.0
+offset_top = 306.0
+offset_right = 737.0
+offset_bottom = 382.0
+text = "Options"
+
+[node name="ExitButton" type="Button" parent="."]
+offset_left = 417.0
+offset_top = 434.0
+offset_right = 680.0
+offset_bottom = 496.0
+text = "Exit"
+script = ExtResource("1_3ndyp")
